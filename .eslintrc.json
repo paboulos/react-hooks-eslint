@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "extends": [
+        "react-app",
+        "airbnb"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": ["error","never"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/jsx-one-expression-per-line": "off"
+    },
+    "settings": {
+        "import/ignore": [".css$","node_modules/*"]
+     }
+}
