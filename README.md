@@ -5,7 +5,7 @@ In to project root run:
 
 ## Linter tool is Eslint
 You can run:
-###'npm run lint'
+### 'npm run lint'
 
 ## Available Scripts
 
